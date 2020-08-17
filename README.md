@@ -6,7 +6,7 @@ This is my repository for data science and data analysis projects.
 
 ## Projects:
 
-* **Recommendation System for Medium Posts:** https://bit.ly/2L2cMwy
+* **Recommendation System for Medium Posts:** https://bit.ly/314ums7
 
 ## About me:
 
