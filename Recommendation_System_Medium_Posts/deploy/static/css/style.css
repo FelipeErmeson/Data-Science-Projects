@@ -1,0 +1,16 @@
+nav {
+    text-align: center;
+    background-color:#ECEFF1;
+    padding: 10px;
+}
+
+nav a {
+    text-align: center;
+    text-decoration:none;
+    color:#000000;
+}
+                        
+.prediction-table th,
+.prediction-table td {
+    padding: 1202px 15px;
+}

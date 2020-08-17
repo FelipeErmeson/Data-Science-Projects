@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<title>Medium Post Recommendation System</title>
+<h1 style="text-align:center;">Medium Post Recommendation System</h1>
+
+<div class="card-body text-secondary">
+    <h5 class="card-title">Última atualização: {{last_update}}</h5>
+</div>
+
+<div class = "container">
+<table class = " table table-striped table-bordered table-hover table-predictions ">
+    <thead>
+    <tr class = "danger">
+        <th style="text-align:center;">Posts Medium</th>
+        <th style="text-align:center;" >Scores (%)</th>
+    </tr>
+    </thead>
+
+    <tbody style="text-align:center;">
+    {% for prediction in predictions %}
+    <tr>
+        <td><a href="{{prediction.link}}">{{prediction.title}}</a></td>
+        <td>{{prediction.score}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</div>    
+{% endblock content %}
